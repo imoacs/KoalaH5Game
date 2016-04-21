@@ -1,0 +1,51 @@
+{
+  "projectName": "Koala",
+  "gameName": "悠悠考拉",
+  "companyName": "qici",
+  "gameInstance": "qc_game",
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Canvas",
+  "transparent": false,
+  "developerMode": false,
+  "toolFlag": 508,
+  "version": "0.1",
+  "loading": "",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "appCache": true,
+  "fixedGameSize": {
+    "enabled": false,
+    "width": 640,
+    "height": 960
+  },
+  "customSettings": {},
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": false,
+  "localStorageID": "com.qici.Koala",
+  "publish": {
+    "android": "build/android",
+    "ios": "build/ios",
+    "browsers": "build/browsers"
+  },
+  "android": {
+    "minTarget": 16,
+    "target": 16,
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Canvas",
+    "defaultOrientation": 0
+  },
+  "ios": {
+    "target": "8.0",
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Auto",
+    "defaultOrientation": 0,
+    "splashScaling": 2
+  },
+  "buildVersion": "0.1"
+}

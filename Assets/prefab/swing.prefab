@@ -1,0 +1,254 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "103a6692-d878-4da0-8752-3496bbc2a357",
+    "_prefab": [
+      7,
+      "125602ac-967d-4883-bca3-62181ca5596a"
+    ],
+    "name": [
+      7,
+      "swing"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.TweenRotation",
+        "data": "e752c41a-6b0f-4857-a5b2-b3d98fc2752b"
+      },
+      {
+        "clazz": "qc.Koala.ui.Swing",
+        "data": "2a298f4c-d25c-4ab5-a5b1-35420ea9a8bd"
+      }
+    ],
+    "position": [
+      0.5,
+      0,
+      -0.000015881641786563705,
+      0.0000024707582326755073,
+      259.4999841183582,
+      0.0000024707582326755073,
+      24,
+      400,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0.5,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.9999999519542663
+    ],
+    "scaleY": [
+      3,
+      0.9999999519542663
+    ],
+    "rotation": [
+      3,
+      0.6981317007977318
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIImage",
+        "data": {
+          "uuid": "b0cee78e-c6c2-4905-b9c3-3d035f8dc0b7",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "line"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            -12,
+            0,
+            24,
+            400,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/texture/line.bin",
+            "cd2436aa-5a6f-49f3-95f1-31e5d5801f24"
+          ],
+          "frame": null,
+          "imageType": [
+            3,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  "__json": {
+    "e752c41a-6b0f-4857-a5b2-b3d98fc2752b": {
+      "class": "qc.TweenRotation",
+      "data": {
+        "uuid": [
+          7,
+          "e752c41a-6b0f-4857-a5b2-b3d98fc2752b"
+        ],
+        "enable": false,
+        "_curve": [
+          22,
+          "qc.BezierCurve",
+          [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "sampleMethod": [
+          3,
+          0
+        ],
+        "style": [
+          3,
+          2
+        ],
+        "delay": [
+          3,
+          0
+        ],
+        "duration": [
+          3,
+          1.1
+        ],
+        "tweenGroup": [
+          3,
+          2
+        ],
+        "flag": [
+          7,
+          "秋千钟摆"
+        ],
+        "playOnAwake": [
+          5,
+          false
+        ],
+        "from": [
+          3,
+          0.6981317007977318
+        ],
+        "to": [
+          3,
+          -0.6981317007977318
+        ]
+      }
+    },
+    "2a298f4c-d25c-4ab5-a5b1-35420ea9a8bd": {
+      "class": "qc.Koala.ui.Swing",
+      "data": {
+        "uuid": [
+          7,
+          "2a298f4c-d25c-4ab5-a5b1-35420ea9a8bd"
+        ],
+        "enable": true
+      }
+    }
+  },
+  "dependences": {
+    "cd2436aa-5a6f-49f3-95f1-31e5d5801f24": {
+      "key": "Assets/texture/line.bin",
+      "uuid": "cd2436aa-5a6f-49f3-95f1-31e5d5801f24"
+    }
+  }
+}

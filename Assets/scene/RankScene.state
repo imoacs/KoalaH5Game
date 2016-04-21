@@ -1,0 +1,776 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      1.4439834024896072,
+      1.1659751037344108,
+      1.4439834024896072,
+      1.1659751037344108,
+      640,
+      960,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.58298755186722
+    ],
+    "scaleY": [
+      3,
+      0.58298755186722
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIRoot",
+        "data": {
+          "uuid": "78b5c0b0-5db1-492d-b472-f70349d4bbf0",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "UIRoot"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.ScaleAdapter",
+              "data": "f6956e8d-0582-4ced-90a1-1a0400e52f1d"
+            },
+            {
+              "clazz": "qc.engine.RankScene",
+              "data": "de3d02a4-4204-405c-97ef-12848c85e59c"
+            }
+          ],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            640,
+            960,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [
+            {
+              "class": "qc.UIImage",
+              "data": {
+                "uuid": "c53fcd14-0d1b-4cfa-92a8-7e9cc553f908",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "name": [
+                  7,
+                  "天空背景"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  null
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [],
+                "position": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  640,
+                  960,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "texture": [
+                  10,
+                  "Assets/texture/game_bg.bin",
+                  "5b8a26f8-0ab5-4e3e-8ebf-09c7c6671c0d"
+                ],
+                "frame": null,
+                "imageType": [
+                  3,
+                  0
+                ]
+              }
+            },
+            {
+              "class": "qc.UIImage",
+              "data": {
+                "uuid": "76646e1a-6bcf-4617-9fd8-f649f237a31b",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "name": [
+                  7,
+                  "UIImage"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  null
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  false
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [],
+                "position": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  640,
+                  960,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "texture": [
+                  10,
+                  "Assets/texture/排行榜副本.bin",
+                  "11699d0c-1860-437e-85b5-c2fa2a0a06ee"
+                ],
+                "frame": null,
+                "imageType": [
+                  3,
+                  0
+                ]
+              }
+            },
+            {
+              "class": "qc.ScrollView",
+              "data": {
+                "uuid": "d20cb95c-4537-4971-b8ee-d1bdf0520cce",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "name": [
+                  7,
+                  "ScrollView"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  null
+                ],
+                "alpha": [
+                  3,
+                  "1"
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.NodeMask",
+                    "data": "94d353dc-7324-42e9-91fe-26ffb6f14c94"
+                  }
+                ],
+                "position": [
+                  0,
+                  0,
+                  -290,
+                  -355.067615658363,
+                  30.000000000000007,
+                  124.932384341637,
+                  580,
+                  735.0676156583631,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  true
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [
+                  {
+                    "class": "qc.Node",
+                    "data": {
+                      "uuid": "2e8b2705-c0cd-46fd-8e0f-fd8bc917bc1f",
+                      "_prefab": [
+                        7,
+                        ""
+                      ],
+                      "name": [
+                        7,
+                        "node"
+                      ],
+                      "ignoreDestroy": [
+                        5,
+                        false
+                      ],
+                      "alpha": [
+                        3,
+                        1
+                      ],
+                      "visible": [
+                        5,
+                        true
+                      ],
+                      "colorTint": [
+                        14,
+                        16777215
+                      ],
+                      "static": [
+                        5,
+                        false
+                      ],
+                      "scripts": [
+                        {
+                          "clazz": "qc.TableLayout",
+                          "data": "a08495b8-1cbf-4a2c-a9f2-4393436ac9de"
+                        }
+                      ],
+                      "position": [
+                        0,
+                        0,
+                        0,
+                        -1.0658141036401503e-14,
+                        0,
+                        -1.0658141036401503e-14,
+                        580,
+                        250,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0
+                      ],
+                      "scaleX": [
+                        3,
+                        1
+                      ],
+                      "scaleY": [
+                        3,
+                        1
+                      ],
+                      "rotation": [
+                        3,
+                        0
+                      ],
+                      "interactive": [
+                        5,
+                        false
+                      ],
+                      "isFiltersThrough": [
+                        5,
+                        null
+                      ],
+                      "children": []
+                    },
+                    "__json": {
+                      "a08495b8-1cbf-4a2c-a9f2-4393436ac9de": {
+                        "class": "qc.TableLayout",
+                        "data": {
+                          "uuid": [
+                            7,
+                            "a08495b8-1cbf-4a2c-a9f2-4393436ac9de"
+                          ],
+                          "enable": true,
+                          "_sizeProvider": [
+                            3,
+                            0
+                          ],
+                          "_marginTop": [
+                            3,
+                            0
+                          ],
+                          "_marginBottom": [
+                            3,
+                            0
+                          ],
+                          "_marginLeft": [
+                            3,
+                            0
+                          ],
+                          "_marginRight": [
+                            3,
+                            0
+                          ],
+                          "_paddingTop": [
+                            3,
+                            0
+                          ],
+                          "_paddingBottom": [
+                            3,
+                            0
+                          ],
+                          "_paddingLeft": [
+                            3,
+                            0
+                          ],
+                          "_paddingRight": [
+                            3,
+                            0
+                          ],
+                          "_autoCalcBounds": [
+                            5,
+                            true
+                          ],
+                          "constraint": [
+                            3,
+                            1
+                          ],
+                          "stride": [
+                            3,
+                            1
+                          ],
+                          "startCorner": [
+                            3,
+                            0
+                          ],
+                          "startAxis": [
+                            3,
+                            0
+                          ],
+                          "contentSizeProvider": [
+                            3,
+                            0
+                          ],
+                          "style": [
+                            3,
+                            0
+                          ],
+                          "_cellStyle": [
+                            9,
+                            [
+                              [
+                                {
+                                  "align": 17,
+                                  "timestamp": 133781,
+                                  "paddingLeft": null,
+                                  "paddingRight": null,
+                                  "paddingTop": null,
+                                  "paddingBottom": null,
+                                  "cellWidth": null,
+                                  "cellHeight": 0
+                                }
+                              ]
+                            ]
+                          ],
+                          "autoUpdate": [
+                            5,
+                            null
+                          ],
+                          "contentAlignment": [
+                            3,
+                            17
+                          ],
+                          "cellAlignment": [
+                            3,
+                            17
+                          ],
+                          "spacingX": [
+                            3,
+                            0
+                          ],
+                          "spacingY": [
+                            3,
+                            0
+                          ],
+                          "ignoreX": [
+                            5,
+                            false
+                          ],
+                          "ignoreY": [
+                            5,
+                            false
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ],
+                "texture": [
+                  10,
+                  "Assets/texture/box_4.bin",
+                  "c1024e7e-23cb-42b7-9193-3bbd38ffe3a3"
+                ],
+                "frame": null,
+                "imageType": [
+                  3,
+                  1
+                ],
+                "content": [
+                  18,
+                  "2e8b2705-c0cd-46fd-8e0f-fd8bc917bc1f"
+                ],
+                "canHorizontal": [
+                  5,
+                  false
+                ],
+                "canVertical": [
+                  5,
+                  true
+                ],
+                "movementType": [
+                  3,
+                  1
+                ],
+                "elasticity": [
+                  3,
+                  2
+                ],
+                "inertia": [
+                  5,
+                  true
+                ],
+                "decelerationRate": [
+                  3,
+                  0.03
+                ],
+                "scrollSensitivity": [
+                  3,
+                  1
+                ],
+                "horizontalScrollBar": null,
+                "verticalScrollBar": null,
+                "propagationScroll": [
+                  5,
+                  false
+                ]
+              },
+              "__json": {
+                "94d353dc-7324-42e9-91fe-26ffb6f14c94": {
+                  "class": "qc.NodeMask",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "94d353dc-7324-42e9-91fe-26ffb6f14c94"
+                    ],
+                    "enable": true,
+                    "checkInField": [
+                      5,
+                      false
+                    ],
+                    "minAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "maxAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "minRotation": [
+                      3,
+                      0
+                    ],
+                    "maxRotation": [
+                      3,
+                      6.283185307179586
+                    ],
+                    "clipType": [
+                      3,
+                      1
+                    ],
+                    "mode": [
+                      3,
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "__json": {
+          "f6956e8d-0582-4ced-90a1-1a0400e52f1d": {
+            "class": "qc.ScaleAdapter",
+            "data": {
+              "uuid": [
+                7,
+                "f6956e8d-0582-4ced-90a1-1a0400e52f1d"
+              ],
+              "enable": true,
+              "target": null,
+              "referenceResolution": [
+                24,
+                "qc.Point",
+                [
+                  640,
+                  960
+                ]
+              ],
+              "manualType": [
+                3,
+                3
+              ],
+              "fullTarget": [
+                5,
+                true
+              ],
+              "gameObjectRecord": [
+                4,
+                [
+                  0.5854166666666667,
+                  0.5854166666666667,
+                  642.2775800711744,
+                  960
+                ]
+              ]
+            }
+          },
+          "de3d02a4-4204-405c-97ef-12848c85e59c": {
+            "class": "qc.engine.RankScene",
+            "data": {
+              "uuid": [
+                7,
+                "de3d02a4-4204-405c-97ef-12848c85e59c"
+              ],
+              "enable": true,
+              "rankingList": [
+                18,
+                "d20cb95c-4537-4971-b8ee-d1bdf0520cce"
+              ],
+              "rankingRowPrefab": [
+                16,
+                "7a1199b1-6beb-4452-a759-f4bf3496a149"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "7a1199b1-6beb-4452-a759-f4bf3496a149": {
+      "key": "7a1199b1-6beb-4452-a759-f4bf3496a149",
+      "uuid": "7a1199b1-6beb-4452-a759-f4bf3496a149"
+    },
+    "5b8a26f8-0ab5-4e3e-8ebf-09c7c6671c0d": {
+      "key": "Assets/texture/game_bg.bin",
+      "uuid": "5b8a26f8-0ab5-4e3e-8ebf-09c7c6671c0d"
+    },
+    "11699d0c-1860-437e-85b5-c2fa2a0a06ee": {
+      "key": "Assets/texture/排行榜副本.bin",
+      "uuid": "11699d0c-1860-437e-85b5-c2fa2a0a06ee"
+    },
+    "c1024e7e-23cb-42b7-9193-3bbd38ffe3a3": {
+      "key": "Assets/texture/box_4.bin",
+      "uuid": "c1024e7e-23cb-42b7-9193-3bbd38ffe3a3"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width,user-scalable=no'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-title' content='悠悠考拉'>
+    <link rel='apple-touch-icon' href='../../build/imgs/qici.png'>
+    <link rel='apple-touch-startup-image' href='../../build/imgs/qici.png'>
+
+    <link rel="shortcut icon" href="../../lib/imgs/qici.ico" />
+    <title>编辑器启动场景的脚本</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/Assets/css/style.css"/>
+
+    <script>
+
+        var qici = {};
+        qici.config = {
+            // 游戏名字，默认为：未命名
+            gameName: '悠悠考拉',
+
+            // 本地存储标志符，默认为：com.DefaultCompany.Game
+            localStorageID: 'com.qici.Koala',
+
+            // 游戏示例，将作为全局变量访问，默认为：game
+            gameInstance: 'qc_game',
+
+            // 帧率
+            frameRate: {"mobile":30,"desktop":60},
+
+            // 固定游戏大小
+            fixedGameSize: {"enabled":false,"width":640,"height":960},
+
+            // 游戏背景色
+            backgroundColor: 4671303,
+
+            // 后台运行
+            runInBackground: true,
+
+            // 抗锯齿
+            antialias: true,
+
+            // 渲染方式
+            renderer: 'Canvas',
+
+            // 背景透明
+            transparent: false,
+
+            // 游戏切屏时的进度界面
+            loadingPrefab: '',
+
+            // 开发模式
+            developerMode: true,
+
+            // 是否启用脏矩形
+            dirtyRectangles: true,
+
+            // 是否显示脏矩形区域
+            dirtyRectanglesShow: false,
+
+            // 自定义配置
+            customSettings: {},
+
+            // 所有的游戏场景
+            scene: [
+                'Temp/scene_editor',
+                "Assets/scene/main"
+            ],
+
+            // 入口场景
+            entryScene : 'Temp/scene_editor',
+            loadingHandler: 'svgHandler',
+            loading: {
+                loadingText: 'Loading, please wait...',
+                loadingInterval: 200,
+                brightingInterval: 10,
+                blinkingCount: 5,
+                blinkingInterval: 70,
+                fadingInInterval: 50,
+                fadingOutInterval: 100
+            }
+        };
+
+        qici.config.developerMode = true;
+        qici.config.editor = true;
+        qici.config.runInBackground = true;
+        qici.config.frameRate = {
+            "mobile": 30,
+            "desktop": 30
+        };
+
+   		_pluginVariables_={}
+
+        qici.scripts = [
+            './Assets/meta/globalUrlMap.js?20160411152323_6',
+            '../lib/phaser.js',
+            '../lib/webfontloader.js',
+            '../lib/qc-core-debug.js',
+            // sound duration
+
+            // asset count
+'./Assets/meta/assetCountMap.js?20160411152323_6',
+            // External scripts for plugins
+
+            // Plugins scripts
+			['../Plugins/com.qici.tweenFunction/Script/TweenFunction.js?20160411152303', 'com.qici.TweenFunction'],
+			['../Plugins/com.qici.extraUI/Script/Core.js?20160411152303', 'com.qici.extraUI'],
+			['../Plugins/com.qici.extraUI/Script/ScrollSupport.js?20160411152303', 'com.qici.extraUI'],
+			['../Plugins/com.qici.extraUI/Script/TableViewAdapter.js?20160411152303', 'com.qici.extraUI'],
+			['../Plugins/com.qici.extraUI/Script/TableView.js?20160411152303', 'com.qici.extraUI'],
+
+            // User scripts
+			'../Scripts/Koala.js?20160411152303',
+			'../Scripts/ui/FollowMsg.js?20160411152303',
+			'../Scripts/logic/Config.js?20160411152303',
+			'../Scripts/logic/Me.js?20160411152303',
+			'../Scripts/logic/Percent.js?20160411152303',
+			'../Scripts/logic/Pillar.js?20160411152303',
+			'../Scripts/logic/Score.js?20160411152303',
+			'../Scripts/logic/Share.js?20160411152303',
+			'../Scripts/logic/Wind.js?20160411152303',
+			'../Scripts/logic/wx/QcWeChat.js?20160411152303',
+			'../Scripts/logic/wx/QcWx.js?20160411152303',
+			'../Scripts/ui/Background.js?20160411152303',
+			'../Scripts/Interactive.js?20160411152303',
+			'../Scripts/ui/GameOver.js?20160411152303',
+			'../Scripts/ui/Koala.js?20160411152303',
+			'../Scripts/ui/Main.js?20160411152303',
+			'../Scripts/ui/Pause.js?20160411152303',
+			'../Scripts/ui/Pillar.js?20160411152303',
+			'../Scripts/ui/PillarPool.js?20160411152303',
+			'../Scripts/ui/RankData.js?20160411152303',
+			'../Scripts/ui/Ranking.js?20160411152303',
+			'../Scripts/ui/RankingRow.js?20160411152303',
+			'../Scripts/ui/ShareMsg.js?20160411152303',
+			'../Scripts/ui/Swing.js?20160411152303',
+			'../Scripts/ui/Welcome.js?20160411152303',
+
+        ];
+
+        // Asset count that need preload in boot
+        qici.loadingAssetCount = 44;
+    </script>
+</head>
+
+<body onload="qici.init();">
+    <div style="overflow:hidden;padding:0;margin:0;width:100%;height:100%;">
+        <div id="gameDiv" style="position:absolute;width:100%;height:100%"></div>
+    </div>
+    <script src='../../lib/qc-loading-debug.js'></script>
+    <script src='../../lib/qc-loading-editor.js'></script>
+</body>
+
+</html>
